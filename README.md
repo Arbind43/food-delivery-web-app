@@ -59,12 +59,11 @@ Follow these steps carefully to run the project locally.
 
 ---
 
-# 1️⃣ **Clone the Repository**
-```sh
+#1️⃣ Clone the Repository
 git clone https://github.com/your-username/food-delivery-app.git
 cd food-delivery-app
 
-2️⃣ Backend Setup
+#2️⃣ Backend Setup
 Step 1: Go to backend folder
 cd backend
 
@@ -93,7 +92,7 @@ npm run dev
 The backend should now run on:
 📌 http://localhost:5000
 
-3️⃣ Frontend Setup
+#3️⃣ Frontend Setup
 Step 1: Open the frontend folder
 cd ../frontend
 
