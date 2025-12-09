@@ -18,3 +18,42 @@ Included:
 
 This is the initial fully working version of the application.
 
+
+
+# 🍽️ Food Delivery Web App 2024  
+Full-stack food delivery platform built with **React.js, Node.js, Express.js, MongoDB, Firebase Realtime Database, and Stripe Payments**.
+
+This app supports:
+- User Authentication (JWT)
+- Restaurant Listings & Menu
+- Cart & Checkout Flow
+- Stripe Payment Processing
+- Real-Time Order Tracking (Firebase)
+- RESTful APIs (Node + Express)
+- Optimized MongoDB Schemas
+
+---
+
+## 🚀 Tech Stack
+
+### **Frontend**
+- React.js (Vite)
+- React Router
+- Axios
+- Stripe.js + React-Stripe
+- Firebase Realtime Database
+
+### **Backend**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Stripe Payments
+- Firebase Admin SDK
+- JWT Authentication
+
+---
+
+# 📁 Project Structure
+
+
+
