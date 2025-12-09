@@ -51,33 +51,8 @@ This app supports:
 - Firebase Admin SDK
 - JWT Authentication
 
----
-
-# 📁 Project Structure
-food-delivery-app/
-│
-├── backend/
-│ ├── src/
-│ │ ├── models/
-│ │ ├── routes/
-│ │ ├── config/
-│ │ ├── utils/
-│ │ └── server.js
-│ ├── package.json
-│ └── .env.example
-│
-└── frontend/
-├── src/
-│ ├── components/
-│ ├── api/
-│ ├── firebaseConfig.js
-│ └── App.jsx
-├── package.json
-└── .env
-
 
 ---
-
 # 🔧 Installation & Setup Instructions
 
 Follow these steps carefully to run the project locally.
@@ -88,5 +63,59 @@ Follow these steps carefully to run the project locally.
 ```sh
 git clone https://github.com/your-username/food-delivery-app.git
 cd food-delivery-app
+
+2️⃣ Backend Setup
+Step 1: Go to backend folder
+cd backend
+
+Step 2: Install dependencies
+npm install
+
+Step 3: Create .env file
+
+Create a .env file inside the backend folder:
+
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/food_delivery
+JWT_SECRET=your_jwt_secret_here
+STRIPE_SECRET_KEY=sk_test_your_key
+FIREBASE_SERVICE_ACCOUNT_PATH=./serviceAccountKey.json
+FIREBASE_DB_URL=https://your-firebase-db.firebaseio.com
+CLIENT_URL=http://localhost:5173
+
+
+⚠️ Place your Firebase serviceAccountKey.json inside backend folder.
+
+Step 4: Run the backend server
+npm run dev
+
+
+The backend should now run on:
+📌 http://localhost:5000
+
+3️⃣ Frontend Setup
+Step 1: Open the frontend folder
+cd ../frontend
+
+Step 2: Install dependencies
+npm install
+
+Step 3: Create .env file
+
+Inside frontend/.env add:
+
+VITE_API_URL=http://localhost:5000/api
+VITE_STRIPE_PUBLIC_KEY=pk_test_your_key
+VITE_FIREBASE_API_KEY=your_firebase_key
+VITE_FIREBASE_AUTH_DOMAIN=your-app.firebaseapp.com
+VITE_FIREBASE_DB_URL=https://your-app.firebaseio.com
+VITE_FIREBASE_PROJECT_ID=your-app
+
+Step 4: Run frontend
+npm run dev
+
+
+Frontend will be live at:
+📌 http://localhost:5173
 
 
