@@ -54,6 +54,39 @@ This app supports:
 ---
 
 # 📁 Project Structure
+food-delivery-app/
+│
+├── backend/
+│ ├── src/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ ├── config/
+│ │ ├── utils/
+│ │ └── server.js
+│ ├── package.json
+│ └── .env.example
+│
+└── frontend/
+├── src/
+│ ├── components/
+│ ├── api/
+│ ├── firebaseConfig.js
+│ └── App.jsx
+├── package.json
+└── .env
 
+
+---
+
+# 🔧 Installation & Setup Instructions
+
+Follow these steps carefully to run the project locally.
+
+---
+
+# 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/your-username/food-delivery-app.git
+cd food-delivery-app
 
 
